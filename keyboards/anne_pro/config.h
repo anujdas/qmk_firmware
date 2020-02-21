@@ -31,6 +31,8 @@
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 14
 
+/* key matrix physical layout */
+#define DIODE_DIRECTION COL2ROW
 #define MATRIX_ROW_PINS { B9, B8, B7, B6, A0 }
 #define MATRIX_COL_PINS { A5, A6, A7, B0, B1, B12, B13, B14, A8, A9, A15, B3, B4, B5 }
 
